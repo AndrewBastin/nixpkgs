@@ -29,7 +29,7 @@ let
   };
 in
 stdenv.mkDerivation {
-  pname = "cursor-agent";
+  pname = "cursor-cli";
   inherit version;
 
   src = sources.${hostPlatform.system};
