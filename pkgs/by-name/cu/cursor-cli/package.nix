@@ -55,7 +55,7 @@ stdenv.mkDerivation {
     description = "Cursor CLI";
     homepage = "https://cursor.com/cli";
     license = lib.licenses.unfree;
-    maintainers = with lib.maintainers; [ sudosubin ];
+    maintainers = with lib.maintainers; [ sudosubin andrewbastin ];
     platforms = builtins.attrNames sources;
     mainProgram = "cursor-agent";
   };
