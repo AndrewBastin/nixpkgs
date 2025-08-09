@@ -13,11 +13,11 @@ let
   sources = {
     x86_64-linux = fetchurl {
       url = "https://downloads.cursor.com/lab/${version}/linux/x64/agent-cli-package.tar.gz";
-      hash = "sha256-AwwfNJU4+ndvO5DAY7cfpKBVqQz7QiCB4IPY57Ri2iQ=";
+      hash = "sha256-ikoxUvpLMngDOlHawq7i69mOcPGkV8q1capDU83QMWs=";
     };
     aarch64-linux = fetchurl {
       url = "https://downloads.cursor.com/lab/${version}/linux/arm64/agent-cli-package.tar.gz";
-      hash = "sha256-ikoxUvpLMngDOlHawq7i69mOcPGkV8q1capDU83QMWs=";
+      hash = "sha256-AwwfNJU4+ndvO5DAY7cfpKBVqQz7QiCB4IPY57Ri2iQ=";
     };
     x86_64-darwin = fetchurl {
       url = "https://downloads.cursor.com/lab/${version}/darwin/x64/agent-cli-package.tar.gz";
